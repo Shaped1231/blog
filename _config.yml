@@ -77,12 +77,6 @@ sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
 sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
-# Featured Tags
-friends:
-  [
-    { title: "主站", href: "https://shaped1231.github.io/" },
-  ]
-
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
