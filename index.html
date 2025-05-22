@@ -4,6 +4,10 @@ description: "欢迎"
 ---
 
 {% for post in paginator.posts %}
+<script
+  src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback"
+  defer
+></script>
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
