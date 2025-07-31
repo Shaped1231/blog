@@ -1,6 +1,6 @@
 # Site settings
 title: My Blog
-SEOTitle: shaped的博客
+SEOTitle: Shaped Blog
 header-img: img/home-bg.jpg
 email: huxpro@gmail.com
 description: "这里是 shaped 的个人博客"
@@ -15,10 +15,10 @@ future: true
 RSS: false
 weibo_username: huxpro
 zhihu_username: huxpro
-github_username: huxpro
+github_username: Shaped1231
 twitter_username: huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+facebook_username:  huxpro
+linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
