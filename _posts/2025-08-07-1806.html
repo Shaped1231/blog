@@ -1,0 +1,36 @@
+---
+layout:     post
+title:      "【亲测免费】 详解如何使用 DosBox 安装 Windows 95 操作系统"
+date:       2025-08-04 00:00:00
+author:     "Shaped1231"
+header-img: "img/post-bg-miui6.jpg"
+
+---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<hr />
+<p style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">layout:     post title:      &quot;【亲测免费】 详解如何使用 DosBox 安装 Windows 95 操作系统&quot; date:       2025-08-04 00:00:00 author:     &quot;Shaped1231&quot; header-img: &quot;img/post-bg-miui6.jpg&quot;</p>
+<hr />
+<p style=" margin-top:6px; margin-bottom:6px; margin-left:40px; margin-right:40px; -qt-block-indent:0; text-indent:0px;">本教程旨在指导您如何利用 DosBox 虚拟环境安装经典的 Windows 95 操作系统。如果您希望回味过去，体验老一代操作系统的同时不依赖物理老机器，这就将是您的理想指南。以下是详细的步骤和注意事项，适合那些怀旧技术爱好者。</p>
+<h1 style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:xx-large; font-weight:600;">一、简介</span></h1>
+<p style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">DosBox是一款开源的DOS仿真器，能够让现代计算机运行古老的DOS应用程序和游戏，甚至支持安装完整的DOS操作系统如Windows 95。</p>
+<h1 style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:xx-large; font-weight:600;">二、必备软件与资源</span></h1>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">DosBox: 推荐使用特定版本的 DosBox SVN Daum，它具有优化的Windows系统支持。</li>
+<li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">辅助工具: 包括Bochs、驱动程序、工具软件和预配置的磁盘镜像文件，所有这些都可以通过分享的百度网盘链接获得。</li>
+<li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">配置文件: 自定义的 dosbox.conf 配置文件是成功安装的关键。</li></ul>
+<h1 style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:xx-large; font-weight:600;">三、安装步骤简述</span></h1>
+<ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">下载与安装: 下载 DosBox SVN Daum 版本，并避免中文路径或特殊字符的安装目录。</li>
+<li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">配置 DosBox: 修改 dosbox.conf 文件，调整内存、显存设置，以及其他关键选项，以适应Windows 95的安装需求。</li>
+<li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">创建磁盘镜像: 使用DosBox内置命令或外部工具创建合适大小的硬盘镜像文件。</li>
+<li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">挂载与引导: 利用 imgmount 命令挂载你的启动盘镜像和磁盘镜像，通过DosBox的autoexec段落自动化这一过程。</li>
+<li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">安装过程: 启动DosBox，引导安装程序，跟随传统的安装向导进行操作，注意选择正确的分区和文件系统设置。</li>
+<li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">驱动与软件: 安装完成后，手动添加必要的驱动和软件，确保系统正常运行。</li></ol>
+<h1 style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:xx-large; font-weight:600;">四、注意事项</span></h1>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">兼容性问题: 选择Windows 95而非98是因为后者在DosBox上的支持稍逊一筹。</li>
+<li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">配置文件调整: 仔细调整内存和显卡配置，以免安装过程中出现问题。</li>
+<li style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">模拟Voodoo显卡: 特殊的游戏体验可能需要设置虚拟的Voodoo显卡支持。</li></ul>
+<h1 style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:xx-large; font-weight:600;">五、结语</span></h1>
+<p style=" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">通过遵循上述步骤，即使在现代计算机上，您也能重温那个时代的操作系统。记住，复古不仅仅是一种技术实践，也是一种情怀的回归。享受这段穿越时空的旅程吧！</p></body></html>
