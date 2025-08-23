@@ -88,6 +88,7 @@ page-mathjax: false
 friends:
   [
     { title: "主站", href: "https://shaped1231.github.io/" },
+    { title: "GWindows", href: "https://www.gwindows.top/" },
     { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
     { title: "Kun Qian", href: "http://kunq.me" },
     { title: "Sherry Woo", href: "https://sherrywoo.me/" },
